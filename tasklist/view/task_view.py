@@ -145,8 +145,8 @@ class TaskApp:
         self.submit_button.on_click = self.add_task
 
 # Inicializando a aplicação
-def main(page: ft.Page):
-    app = TaskApp()
-    app.main(page)
-
-ft.app(target=main)
+#def main(page: ft.Page):
+#    app = TaskApp()
+#    app.main(page)
+#
+#ft.app(target=main)
