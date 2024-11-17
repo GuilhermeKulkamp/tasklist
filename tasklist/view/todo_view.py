@@ -194,6 +194,7 @@ class TodoApp(ft.Column):
                 count += 1
         self.items_left.value = f"{count} active item(s) left"
 
+'''
 def main(page: ft.Page):
     """
     Configura a aplicação e inicia a interface.
@@ -208,4 +209,4 @@ def main(page: ft.Page):
     # Cria a aplicação e adiciona à página.
     page.add(TodoApp())
 
-ft.app(main)
+'''
